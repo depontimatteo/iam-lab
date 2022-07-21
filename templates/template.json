@@ -1,0 +1,15 @@
+{
+    "Resources": {
+        "User": {
+            "Type": "AWS::IAM::User",
+            "Properties": {
+                "Policies": [
+                    {
+                        "PolicyName": "Test-Policy",
+                        "PolicyDocument": AutomaticallyReplacedByOurCustomScript
+                    }
+                ]
+            }
+        }
+    }
+}
