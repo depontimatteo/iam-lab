@@ -4,6 +4,7 @@
     "Statement": [
         {
             "Sid": "Stmt1658338608578",
+            "Effect": "Allow",
             "Action": [
                 "s3:DeleteObjects",
                 "s3:GetObjects",
@@ -12,7 +13,7 @@
                 "s3:PutObjects",
                 "s3:PutObjectsAcl"
             ],
-            "Resource": ["*"]
+            "Resource": ["arn:aws:s3:::*"]
         }
     ]
 }
