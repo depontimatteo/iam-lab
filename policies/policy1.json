@@ -6,11 +6,11 @@
             "Sid": "Stmt1658338608578",
             "Effect": "Allow",
             "Action": [
-                "s3:DeleteObjects",
-                "s3:GetObjects",
+                "s3:DeleteObject",
+                "s3:GetObject",
                 "s3:GetObjectsAcl",
                 "s3:ListBucket",
-                "s3:PutObjects",
+                "s3:PutObject",
                 "s3:PutObjectsAcl"
             ],
             "Resource": ["arn:aws:s3:::*"]
