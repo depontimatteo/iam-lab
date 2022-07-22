@@ -1,4 +1,4 @@
- {
+{
     "Id": "Policy1658338615106",
     "Statement": [
         {
@@ -11,7 +11,10 @@
                 "s3:PutObject",
                 "s3:PutObjectAcl"
             ],
-            "Resource": ["*"]
+            "Effect": "Allow",
+            "Resource": [
+                "*"
+            ]
         }
     ]
 }
